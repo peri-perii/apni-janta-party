@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { Sparkles, Play, Shield, Droplet } from "lucide-react";
+import { AjpFlag } from "./AjpFlag";
 
 interface HeroProps {
   onJoinClick: () => void;
@@ -186,6 +187,11 @@ export const Hero: React.FC<HeroProps> = ({ onJoinClick, onManifestoClick }) => 
       {/* Front-and-center Main Hero Interface Container */}
       <div className="max-w-6xl mx-auto flex flex-col items-center justify-center text-center relative z-10 pt-8 xl:pt-12">
         
+        {/* Dynamic Waving Movement Flag */}
+        <div className="mb-6 flex justify-center">
+          <AjpFlag size="lg" className="hover:scale-105 transition-transform" />
+        </div>
+
         {/* Live Top badge sticker */}
         <motion.div
           animate={{ scale: [1, 1.05, 1], rotate: [-1, 1, -1] }}

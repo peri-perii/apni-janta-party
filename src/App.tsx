@@ -5,7 +5,7 @@ import { WhoWeAre } from "./components/WhoWeAre";
 import { Manifesto } from "./components/Manifesto";
 import { WhatsBurning } from "./components/WhatsBurning";
 import { SolutionBoard } from "./components/SolutionBoard";
-import { Impact } from "./components/Impact";
+import { AjpArcade } from "./components/AjpArcade";
 import { Events } from "./components/Events";
 import { JoinMovement } from "./components/JoinMovement";
 import { Footer } from "./components/Footer";
@@ -77,8 +77,8 @@ export default function App() {
         {/* SECTION 5: SOLUTION BOARD */}
         <SolutionBoard />
 
-        {/* SECTION 6: IMPACT counters metrics */}
-        <Impact />
+        {/* SECTION 6: AJP ARCADE MINI-GAME */}
+        <AjpArcade />
 
         {/* SECTION 8: EVENTS field meet schedule */}
         <Events />

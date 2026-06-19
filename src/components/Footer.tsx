@@ -1,6 +1,6 @@
 import React from "react";
 import { Logo } from "./Logo";
-import { ArrowUp, Github, Heart, MessageSquare } from "lucide-react";
+import { ArrowUp, Github, MessageSquare } from "lucide-react";
 
 export const Footer: React.FC = () => {
   const handleScrollTop = () => {
@@ -70,7 +70,7 @@ export const Footer: React.FC = () => {
             </h4>
             <div className="flex gap-3">
               <a
-                href="https://github.com"
+                href="https://github.com/peri-perii/apni-janta-party"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 border border-white bg-zinc-900 hover:bg-white hover:text-black transition-colors"
@@ -105,10 +105,6 @@ export const Footer: React.FC = () => {
         <div className="mt-12 flex flex-col sm:flex-row items-center justify-between gap-6 font-mono text-[10px] text-gray-500 uppercase tracking-widest font-bold">
           <div className="flex items-center gap-1.5 flex-wrap justify-center text-center sm:text-left">
             <span>© 2026 APNI JANTA PARTY (AJP)</span>
-            <span>•</span>
-            <span className="flex items-center gap-1 text-ajp-orange">
-              BUILT WITH GRIT <Heart className="w-3.5 h-3.5 fill-ajp-orange stroke-none" /> BY SOLVERS
-            </span>
           </div>
 
           <button
