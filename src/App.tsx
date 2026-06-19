@@ -6,7 +6,6 @@ import { Manifesto } from "./components/Manifesto";
 import { WhatsBurning } from "./components/WhatsBurning";
 import { SolutionBoard } from "./components/SolutionBoard";
 import { Impact } from "./components/Impact";
-import { ThePeople } from "./components/ThePeople";
 import { Events } from "./components/Events";
 import { JoinMovement } from "./components/JoinMovement";
 import { Footer } from "./components/Footer";
@@ -80,9 +79,6 @@ export default function App() {
 
         {/* SECTION 6: IMPACT counters metrics */}
         <Impact />
-
-        {/* SECTION 7: THE PEOPLE active ambassadors board */}
-        <ThePeople />
 
         {/* SECTION 8: EVENTS field meet schedule */}
         <Events />

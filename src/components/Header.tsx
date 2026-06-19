@@ -27,7 +27,6 @@ export const Header: React.FC<HeaderProps> = ({ onJoinClick, onReportClick }) =>
     { title: "What's Burning?", href: "#burning" },
     { title: "Solutions", href: "#solutions" },
     { title: "Impact", href: "#impact" },
-    { title: "The People", href: "#people" },
     { title: "Events", href: "#events" }
   ];
 

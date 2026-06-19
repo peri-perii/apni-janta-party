@@ -58,9 +58,6 @@ export const Footer: React.FC = () => {
                 <a href="#solutions" className="hover:text-ajp-yellow hover:underline block py-0.5">The Solution Board</a>
               </li>
               <li>
-                <a href="#people" className="hover:text-ajp-yellow hover:underline block py-0.5">Roster Ranks</a>
-              </li>
-              <li>
                 <a href="#events" className="hover:text-ajp-yellow hover:underline block py-0.5">Field Meets</a>
               </li>
             </ul>
